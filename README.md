@@ -69,17 +69,21 @@ EDA helped guide:
 - Evaluation design
 - ### 📊 Key Visuals
 
-#### 🔹 Word Cloud (Text Columns)
+#### 🔹 Word Cloud
 
-![Word Cloud](images/wordcloud_texts.png)
+![Word Cloud](images/WordCloud)
 
-#### 🔹 Distribution of Text Lengths
+#### 🔹 WordCountDistribution
 
-![Text Lengths](images/text_length_distribution.png)
+![Text Lengths](images/WordCountDistribution)
 
 #### 🔹 Text-Summary Similarity Scores
 
-![Similarity Histogram](images/summary_similarity_distribution.png)
+![Similarity Histogram](images/TextSummarySimilarity.png)
+
+#### 🔹 Top 20 Text Words
+
+![Similarity Histogram](images/TopTextWords.png)
 
 ---
 
@@ -119,6 +123,10 @@ Tokenization `max_length` values were dynamically set using the 75th percentile 
 ## 🚀 Run the Gradio Summarization App
 
 You can test the model in real time using a simple UI.
+
+#### 🔹 Demo
+
+![Similarity Histogram](images/Gradio.png)
 
 ### 💡 Steps:
 
