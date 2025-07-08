@@ -71,11 +71,11 @@ EDA helped guide:
 
 #### 🔹 Word Cloud
 
-![Word Cloud](images/WordCloud)
+![Word Cloud](images/WordCloud.png)
 
 #### 🔹 WordCountDistribution
 
-![Text Lengths](images/WordCountDistribution)
+![Text Lengths](images/WordCountDistribution.png)
 
 #### 🔹 Text-Summary Similarity Scores
 
