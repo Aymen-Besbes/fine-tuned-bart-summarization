@@ -2,12 +2,13 @@
 
 This project demonstrates an end-to-end **abstractive summarization pipeline** using a fine-tuned `facebook/bart-large-cnn` model on a domain-specific dataset about **AI, LLMs, and NLP technologies**. 
 
-It includes:
-1. Custom dataset preparation  
-2. Exploratory Data Analysis (EDA)  
-3. BART fine-tuning using Hugging Face Transformers
-4.  ROUGE-based evaluation
-5.  Real-time Gradio demo app 
+###  Key Components:
+- Domain-specific dataset collection and enhancement  
+- Exploratory Data Analysis (EDA)  
+- Fine-tuning BART using Hugging Face Transformers  
+- ROUGE-based evaluation  
+- Real-time demo using Gradio  
+- Hosted model on Hugging Face Hub
 ---
 
 ## 📁 Project Structure
@@ -26,7 +27,6 @@ fine-tuned-bart-summarization/
 │ ├── ai_llm_dataset.csv # Collected dataset
 │ └── Enhanced_ai_llm_dataset.csv # Final training dataset
 │
-├── fine_tuned_bart_model/ # Exported fine-tuned model
 ├── requirements.txt
 ├── .gitignore
 └── README.md 
@@ -131,6 +131,35 @@ You can test the model in real time using a simple UI.
    ```bash
    cd scripts
    python inference_demo.py
+---
+## 🤗 Model on Hugging Face
+🧠 Model Repo: AymB2/fine_tuned_bart_model
+```bash
+  from transformers import BartForConditionalGeneration, BartTokenizer
+
+  tokenizer = BartTokenizer.from_pretrained("AymB2/fine_tuned_bart_model")
+  model = BartForConditionalGeneration.from_pretrained("AymB2/fine_tuned_bart_model")
+```
+
+---
+## 🛠️ Improvements & Enhancements
+
+### ✅ Completed
+
+- [x] **Model hosted on Hugging Face Hub** for easy access  
+  → [AymB2/fine_tuned_bart_model](https://huggingface.co/AymB2/fine_tuned_bart_model)
+
+- [x] **1% ROUGE-1 improvement** on low-resource domain-specific dataset
+
+- [x] **Dynamic token length analysis** using the 75th percentile for optimized input/output sequence lengths
+
+---
+
+### 🔄 Planned
+
+- [ ] **Increase dataset size** 
+
+
 ---
 ## 📬 Contact
 Author: Aymen Besbes & Aws Gandouz Email: Aymen.besbes@outlook.com | Aymen.besbes@ensi-uma.tn
