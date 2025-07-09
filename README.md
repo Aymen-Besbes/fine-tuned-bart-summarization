@@ -1,11 +1,14 @@
-#  🧠 Fine-Tuned BART for Abstractive Text Summarization (AI & LLM Domain)
+# 🧠 Fine-Tuned BART for Abstractive Text Summarization (AI & LLM Domain) (Simulation)
 
 This project demonstrates an end-to-end **abstractive summarization pipeline** using a fine-tuned `facebook/bart-large-cnn` model on a domain-specific dataset about **AI, LLMs, and NLP technologies**. 
+
+**Note:** Due to the limited size of the dataset (20 samples), this project is intended as a **prototype and learning exercise**. The fine-tuning process is simulated to showcase the complete pipeline from data preparation to model evaluation and deployment rather than to produce a production-ready summarization model.
+
 
 ###  Key Components:
 - Domain-specific dataset collection and enhancement  
 - Exploratory Data Analysis (EDA)  
-- Fine-tuning BART using Hugging Face Transformers  
+- Simulated fine-tuning of BART using Hugging Face Transformers 
 - ROUGE-based evaluation  
 - Real-time demo using Gradio  
 - Hosted model on Hugging Face Hub
@@ -89,7 +92,8 @@ EDA helped guide:
 
 ## ⚙️ Fine-Tuning Details
 
-We fine-tuned `facebook/bart-large-cnn` using Hugging Face’s `Seq2SeqTrainer` on the enhanced dataset.
+I performed simulated fine-tuning of  `facebook/bart-large-cnn` using Hugging Face’s `Seq2SeqTrainer` on the enhanced dataset.
+**Note**: Given the small dataset size, this fine-tuning process is intended to demonstrate the model adaptation workflow and training configuration rather than produce a fully generalized model.
 
 ### ✅ Training Arguments Used
 
