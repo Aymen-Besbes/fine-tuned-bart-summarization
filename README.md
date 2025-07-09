@@ -1,5 +1,6 @@
 # 🧠 Fine-Tuned BART for Abstractive Text Summarization (AI & LLM Domain) (Simulation)
 
+## Overview
 This project demonstrates an end-to-end **abstractive summarization pipeline** using a fine-tuned `facebook/bart-large-cnn` model on a domain-specific dataset about **AI, LLMs, and NLP technologies**. 
 
 **Note:** Due to the limited size of the dataset (20 samples), this project is intended as a **prototype and learning exercise**. The fine-tuning process is simulated to showcase the complete pipeline from data preparation to model evaluation and deployment rather than to produce a production-ready summarization model.
