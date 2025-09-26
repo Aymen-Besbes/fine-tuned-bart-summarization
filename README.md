@@ -175,7 +175,7 @@ You can test the model in real time using a simple UI.
 
 ---
 ## 📬 Contact
-Author: Aymen Besbes & Aws Gandouz Email: Aymen.besbes@outlook.com | Aymen.besbes@ensi-uma.tn
+Author: Aymen Besbes Email: Aymen.besbes@outlook.com | Aymen.besbes@ensi-uma.tn
 
 LinkedIn: https://www.linkedin.com/in/aymen-besbes-158837245/
 
